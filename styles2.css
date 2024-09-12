@@ -6,14 +6,26 @@
         body {
             padding: 50px;
             background: url(new_bg_image2.png) repeat-x; 
-            background-color: LightGoldenRodYellow; 
+            background-color: LightGoldenRodYellow;
+			margin:0 auto;/*Выравнивание элемента по центру родителя*/
+			width: 80%;/*Размер в процентах*/
+			border-radius: 10px; /*Скругление углов*/
+			box-shadow:40px 40px 40px rgba(0.5,0.5,0.5,0.5); /*Тень от элемента с параметрами положения, размытия и цвета*/
         }
         p {
             padding: 20px;
             color: DarkSlateBlue; 
-            font-size: 18px;
+            font-size: 30px;
 			font-family: "Pacifico", cursive;
+			line-height: 150%;
+			margin-left:70px;
 			}
-			h2 {
+			h2 { /*Задаем параметры заголовка второго уровня*/
 			  font-family: "Pacifico", cursive;
+			  color: #8B4513;
+			  font-size: 2.5em;
+			  border-bottom : 2px black solid;
+			  padding: 0 0 20px 60px;
+			  margin: 0;
+			  background: url(icons8-love-24.png) no-repeat 10px 25px;
 			}
