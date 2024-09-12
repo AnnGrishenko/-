@@ -1,0 +1,15 @@
+  html {
+            padding: 20px;
+            background-image: url('new_bg_image.png'); 
+            background-color: LightBlue; 
+        }
+        body {
+            padding: 80px;
+            background: url('new_bg_image2.png') repeat-x; 
+            background-color: LightGoldenRodYellow; 
+        }
+        p {
+            padding: 20px;
+            color: DarkSlateBlue; 
+            font-size: 18px;
+			}
